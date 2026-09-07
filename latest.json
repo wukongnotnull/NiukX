@@ -1,7 +1,7 @@
 {
   "version": "1.1.6",
   "releasedAt": "2026-09-07",
-  "notes": "修复自托管重启重复创建超管导致超管无法登录；全局登录只认平台级账号",
+  "notes": "发布 1.1.6",
   "breaking": false,
   "image": "wukongnotnull/sns:1.1.6"
 }
