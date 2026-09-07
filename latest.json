@@ -1,7 +1,7 @@
 {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "releasedAt": "2026-09-07",
-  "notes": "同一浏览器可同时保持超管与租户后台会话；全局模式 JWT 只加载平台超级管理员；全新自托管数据卷固定初始化 admin/@admin123 与 superadmin/@superadmin123",
+  "notes": "发布 1.1.3",
   "breaking": false,
-  "image": "wukongnotnull/sns:1.1.2"
+  "image": "wukongnotnull/sns:1.1.3"
 }
