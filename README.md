@@ -17,13 +17,13 @@
 
 ## 一键自托管
 
-机器要求：Docker 20+，2 核 / 4GB / 20GB，放行 80 端口。
+机器要求：Docker 20+，2 核 / 至少 2GB / 20GB，放行 80 端口。
 
 ```bash
 docker run -d \
   --name sns \
   -p 80:80 \
-  -m 4g \
+  -m 2g \
   -v sns-data:/data \
   -v /var/run/docker.sock:/var/run/docker.sock \
   --restart unless-stopped \
