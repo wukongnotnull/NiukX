@@ -2,7 +2,7 @@
 
 连接 1000 位牛人。让每个人拥有自己的社交网络。
 
-这里是 **NiukX 的对外入口**：安装说明、版本清单、用户反馈。源码仓库是私有的，不用 clone 也能自托管。
+这里是 **NiukX 的对外入口**：安装说明、版本清单、用户反馈。
 
 需求、bug、安装问题请直接 [提 Issue](https://github.com/wukongnotnull/NiukX/issues/new)。
 
