@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "releasedAt": "2026-09-07",
-  "notes": "统一 NiukX 品牌与对外安装文案；默认写入公开清单地址，后台可检查更新",
+  "notes": "同一浏览器可同时保持超管与租户后台会话；全局模式 JWT 只加载平台超级管理员；全新自托管数据卷固定初始化 admin/@admin123 与 superadmin/@superadmin123",
   "breaking": false,
-  "image": "wukongnotnull/sns:1.1.1"
+  "image": "wukongnotnull/sns:1.1.2"
 }
