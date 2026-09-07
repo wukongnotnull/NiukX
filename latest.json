@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "releasedAt": "2026-09-06",
-  "notes": "后台系统版本页与一键升级；首次启动拆成 super_admin 与租户 admin",
+  "version": "1.1.1",
+  "releasedAt": "2026-09-07",
+  "notes": "统一 NiukX 品牌与对外安装文案；默认写入公开清单地址，后台可检查更新",
   "breaking": false,
-  "image": "wukongnotnull/sns:1.1.0"
+  "image": "wukongnotnull/sns:1.1.1"
 }
