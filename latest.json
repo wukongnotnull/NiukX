@@ -1,7 +1,7 @@
 {
-  "version": "1.1.7",
+  "version": "1.1.8",
   "releasedAt": "2026-09-07",
-  "notes": "发布 1.1.7",
+  "notes": "发布 1.1.8",
   "breaking": false,
-  "image": "wukongnotnull/sns:1.1.7"
+  "image": "wukongnotnull/sns:1.1.8"
 }
