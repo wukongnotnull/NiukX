@@ -26,7 +26,7 @@ docker run -d \
 ```bash
 docker logs sns 2>&1 | grep -A6 "自托管初始账号"
 # 或
-<docker exec sns cat /data/initial-admin.txt
+docker exec sns cat /data/initial-admin.txt
 ```
 
 会生成两个账号：`admin`（默认社区管理员）和 `super_admin`（跨租户超管）。
