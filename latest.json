@@ -1,8 +1,8 @@
 {
-  "version": "1.1.16",
+  "version": "1.1.17",
   "releasedAt": "2026-09-13",
-  "notes": "发布 1.1.16",
+  "notes": "发布 1.1.17",
   "breaking": false,
-  "image": "wukongnotnull/sns:1.1.16",
-  "imageAcr": "crpi-6hpz6udbnjhvzeit.cn-shanghai.personal.cr.aliyuncs.com/wukongnotnull/sns:1.1.16"
+  "image": "wukongnotnull/sns:1.1.17",
+  "imageAcr": "crpi-6hpz6udbnjhvzeit.cn-shanghai.personal.cr.aliyuncs.com/wukongnotnull/sns:1.1.17"
 }
