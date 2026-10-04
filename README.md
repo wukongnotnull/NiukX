@@ -66,6 +66,8 @@ docker exec sns cat /data/initial-admin.txt
 
 想自己指定密码，在上面的 `docker run` 里加上 `-e ADMIN_PASSWORD='你的社区管理员密码' -e SUPER_ADMIN_PASSWORD='你的超级管理员密码'`。已经装过、数据卷里已有这两个账号的，升级不会改掉现有密码。
 
+登录、注册、Gmail 登录，以及开放平台换取 `tenant_access_token`，默认每个 IP、每个用户名（或应用 ID）在 60 秒内最多 10 次。正常登录一次不会碰到。超过会返回 429，等这一分钟过去再试。很多人共用一个出口（办公室、手机网络，或你又在容器前加了一层反向代理）时，可以在 `docker run` 里放宽：`-e SNS_AUTH_RATE_LIMIT_MAX_ATTEMPTS=100` 和 `-e SNS_AUTH_RATE_LIMIT_WINDOW_SECONDS=60`。`SNS_AUTH_RATE_LIMIT_MAX_ATTEMPTS=0` 会关掉这道限制。挂到公网的安装建议保持默认的 10 次。
+
 把 `<公网IP>` 换成你的服务器 IP。两种管理员请走各自的后台，不要混用。
 
 - 前台（给社区成员用）：`http://<公网IP>/`
