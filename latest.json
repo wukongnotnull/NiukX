@@ -1,8 +1,8 @@
 {
-  "version": "3.3.0",
-  "releasedAt": "2026-10-18",
-  "notes": "发布 3.3.0",
+  "version": "3.6.0",
+  "releasedAt": "2026-10-19",
+  "notes": "发布 3.6.0：本版本关闭旧登录，升级前请在后台配置发信邮箱",
   "breaking": false,
-  "image": "wukongnotnull/sns:3.3.0",
-  "imageAcr": "crpi-6hpz6udbnjhvzeit.cn-shanghai.personal.cr.aliyuncs.com/wukongnotnull/sns:3.3.0"
+  "image": "wukongnotnull/sns:3.6.0",
+  "imageAcr": "crpi-6hpz6udbnjhvzeit.cn-shanghai.personal.cr.aliyuncs.com/wukongnotnull/sns:3.6.0"
 }
